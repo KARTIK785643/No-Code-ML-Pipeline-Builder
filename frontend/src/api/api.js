@@ -1,7 +1,8 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:8000",
+  baseURL: "https://no-code-ml-pipeline-builder-uvjd.onrender.com/",
 });
 
 export default API;
+
