@@ -1,0 +1,5 @@
+.stepper { display:flex; flex-direction:column; gap:10px; margin-top:8px; }
+.step { display:flex; gap:10px; align-items:center; }
+.dot { width:34px; height:34px; border-radius:999px; display:flex; align-items:center; justify-content:center; background:#eef2ff; color:#1e3a8a; font-weight:700; }
+.step.done .dot { background:#dcfce7; color:#166534; }
+.label { font-weight:600; color:#0f172a; }

@@ -1,0 +1,15 @@
+.container {
+  max-width: 1200px;
+  margin: 28px auto;
+  padding: 18px;
+}
+.title { color: #1e40af; margin: 0 0 6px; font-size: 24px; }
+.subtitle { color: #6b7280; margin: 0 0 18px; }
+.layout { display:flex; gap:20px; align-items:flex-start; }
+.left-col { width: 380px; display:flex; flex-direction:column; gap:14px; }
+.right-col { flex:1; padding:18px; background:#fff; border-radius:12px; box-shadow: 0 6px 20px rgba(18,38,63,0.06); min-height:420px; }
+.card { background:white; padding:14px; border-radius:10px; box-shadow: 0 2px 8px rgba(16,24,40,0.04); }
+.btn { padding:8px 12px; border-radius:8px; border:none; cursor:pointer; font-weight:600; }
+.btn-primary { background:#2563eb; color:white; }
+.btn-ghost { background:transparent; border:1px solid #e6eefc; color:#0f172a; }
+.hint { color:#6b7280; font-size:13px; }

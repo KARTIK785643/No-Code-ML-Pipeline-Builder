@@ -1,0 +1,5 @@
+@font-face {
+  font-family: InterVar;
+  src: local("Inter"), local("Arial");
+}
+html,body,#root { height: 100%; margin: 0; font-family: InterVar, Arial, sans-serif; background: #f2f6fb; }

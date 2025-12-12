@@ -1,0 +1,42 @@
+.card {
+  padding: 18px;
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+}
+
+/* accuracy tile */
+.metric-box {
+  display:flex;
+  gap:14px;
+  align-items:center;
+}
+
+.metric {
+  font-size: 32px;
+  color: var(--primary-600);
+}
+
+.metric-label {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+/* text report */
+.report {
+  background: #0b1220;
+  color: #e6eefc;
+  padding: 12px;
+  border-radius: 8px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", monospace;
+  font-size: 13px;
+  overflow:auto;
+}
+
+/* confusion matrix area */
+.cm-wrap {
+  display:flex;
+  gap:12px;
+  align-items:center;
+  flex-direction:column;
+}
